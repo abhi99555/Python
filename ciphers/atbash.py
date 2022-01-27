@@ -1,7 +1,6 @@
 """ https://en.wikipedia.org/wiki/Atbash """
 import string
 
-
 def atbash_slow(sequence: str) -> str:
     """
     >>> atbash_slow("ABCDEFG")
@@ -20,7 +19,6 @@ def atbash_slow(sequence: str) -> str:
         else:
             output += i
     return output
-
 
 def atbash(sequence: str) -> str:
     """
@@ -58,7 +56,6 @@ def benchmark() -> None:
         ),
         "seconds",
     )
-
 
 if __name__ == "__main__":
     for example in ("ABCDEFGH", "123GGjj", "testStringtest", "with space"):
