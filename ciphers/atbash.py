@@ -34,7 +34,6 @@ def atbash(sequence: str) -> str:
         letters_reversed[letters.index(c)] if c in letters else c for c in sequence
     )
 
-
 def benchmark() -> None:
     """Let's benchmark them side-by-side..."""
     from timeit import timeit
