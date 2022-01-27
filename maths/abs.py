@@ -1,6 +1,5 @@
 """Absolute Value."""
 
-
 def abs_val(num):
     """
     Find the absolute value of a number.
